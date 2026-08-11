@@ -98,4 +98,4 @@ Loan applications, funded amount, and amount received, broken down by:
 
 - Date columns (`issue_date`, `last_credit_pull_date`, `last_payment_date`, `next_payment_date`) arrive as text in `DD-MM-YYYY` format and are converted to native `DATE` type at the start of `firstdashboard.sql`.
 - MTD and PMTD figures are hardcoded to December 2021 and November 2021, matching the latest month in this dataset; update those `extract(...)` filters if you refresh the data with a later period.
-- This is a standard portfolio/practice dataset (based on the widely used "Bank Loan Report" case study format), used here to demonstrate the Python → SQL → Excel pipeline.
+- This is a standard portfolio/practice dataset (based on the widely used "Bank Loan Report" case study format).
