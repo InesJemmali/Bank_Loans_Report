@@ -92,7 +92,7 @@ Loan applications, funded amount, and amount received, broken down by:
    and load them in the notebook with `os.environ.get(...)` rather than typing the password directly into `create_engine`.
 4. Run `bank_loan.ipynb` to load the data into Postgres.
 5. Run `firstdashboard.sql` to convert date columns and compute the summary KPIs, then `dashboard2.sql` for the trend breakdowns.
-6. Import the query results into Excel (or connect via Power Query) to rebuild the dashboard.
+6. Import the query results into Excel and build PivotTables and PivotCharts from them, with slicers for interactive filtering (by grade, purpose, etc.), to rebuild the dashboard.
 
 ## Notes
 
